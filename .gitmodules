@@ -1,6 +1,3 @@
 [submodule "cwl/ome-tiff-pyramid"]
 	path = cwl/ome-tiff-pyramid
 	url = https://github.com/hubmapconsortium/ome-tiff-pyramid.git
-[submodule "cwl/weather/python-get-forecast"]
-	path = cwl/weather/python-get-forecast
-	url = git@github.com:icaoberg/python-get-forecast.git
