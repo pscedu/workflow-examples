@@ -1,0 +1,3 @@
+[submodule "cwl/ome-tiff-pyramid"]
+	path = cwl/ome-tiff-pyramid
+	url = https://github.com/hubmapconsortium/ome-tiff-pyramid.git
