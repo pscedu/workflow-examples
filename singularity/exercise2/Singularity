@@ -7,5 +7,3 @@ From: hello-world:latest
     SUPPORT help@psc.edu
 
 %post
-    apt update
-    apt install bash
