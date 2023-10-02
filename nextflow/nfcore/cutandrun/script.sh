@@ -1,8 +1,11 @@
 #!/bin/bash
 #SBATCH -p RM-shared
 
+if [ -f ~/bin/nextflow ]; then
+	export PATH=$PATH:~/bin
+fi
+
 module load AI/anaconda3-tf2.2020.11
-module load nextflow
 
 #these tools are needed for the workflow below
 module load bedtools
