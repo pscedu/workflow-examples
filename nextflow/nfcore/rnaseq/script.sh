@@ -2,7 +2,9 @@
 
 #SBATCH -p RM-shared
 
-module load nextflow
+if [ -f ~/bin/nextflow ]; then
+	export PATH=$PATH:~/bin/
+fi
 
 export NXF_SINGULARITY_CACHEDIR=./containers
 if [ ! -d ./containers ]; then mkdir ./containers; fi
