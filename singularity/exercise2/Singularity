@@ -1,0 +1,11 @@
+Bootstrap: docker
+From: hello-world:latest
+
+%labels
+    MAINTAINER icaoberg
+    EMAIL icaoberg@psc.edu
+    SUPPORT help@psc.edu
+
+%post
+    apt update
+    apt install bash
