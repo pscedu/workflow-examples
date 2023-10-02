@@ -20,7 +20,7 @@ PACKAGE=imagemagick
 TOOL=TOOL_NAME
 DIRECTORY=\$(dirname \$0)
 
-STORAGES=(/ocean /bil /hive /local)
+STORAGES=(/ocean /bil /local)
 
 OPTIONS=""
 for STORAGE in "\${STORAGES[@]}"

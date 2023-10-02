@@ -5,7 +5,7 @@ PACKAGE=lazygit
 TOOL=lazygit
 DIRECTORY=$(dirname $0)
 
-STORAGES=(/ocean /bil /hive /local)
+STORAGES=(/ocean /bil /local)
 
 OPTIONS=""
 for STORAGE in "${STORAGES[@]}"
