@@ -1,0 +1,3 @@
+directory:
+  class: Directory
+  location: /bil/data/inventory

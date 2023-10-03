@@ -1,0 +1,6 @@
+ometiff_file:
+    class: File
+    path: NIRHTa-001.ome.tiff
+base_directory: .
+processes: 5
+rgb: False
