@@ -1,0 +1,4 @@
+ message: '{ gsub(/We/, "You"); print}'
+ filename:
+    class: File
+    path: message.txt
