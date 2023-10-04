@@ -1,0 +1,6 @@
+ometiff_directory:
+    class: Directory
+    path: /bil/data/55/4b/554b25eef7f3056d/YC113
+base_directory: .
+processes: 1
+rgb: False
