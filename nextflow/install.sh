@@ -1,5 +1,8 @@
 #!/bin/bash
 
+cd /ocean/projects/cis230059p/$(whoami)
+
+
 mkdir sdkman && ln -s $(pwd)/sdkman $HOME/.sdkman
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
