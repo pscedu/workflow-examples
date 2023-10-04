@@ -12,7 +12,7 @@ pip install multiqc --user -q
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-export PATH=~/bin:$PATH
+export PATH=~/bin:~/.local/bin/:$PATH
 export NXF_SINGULARITY_CACHEDIR=./containers
 
 if [ ! -d ./containers ]; then mkdir ./containers; fi
