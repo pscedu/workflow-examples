@@ -2,7 +2,7 @@
 
 export PATH=$PATH:~/.local/bin
 
-wget -nc https://raw.githubusercontent.com/ruanyf/fortunes/master/data/fortunes
+wget -nc --quiet https://raw.githubusercontent.com/ruanyf/fortunes/master/data/fortunes
 
 pip install fortune --user -q
 pip install snakemake --user -q

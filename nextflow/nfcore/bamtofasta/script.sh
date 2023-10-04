@@ -7,8 +7,6 @@ module load anaconda3
 module load FastQC
 module load samtools
 
-pip install multiqc --user -q
-
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 

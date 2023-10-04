@@ -1,6 +1,6 @@
-rule wttr:
+rule weather:
     output:
-        touch("output.txt")
+        "output.txt"
     shell:
         "curl wttr.in > {output}"
 
