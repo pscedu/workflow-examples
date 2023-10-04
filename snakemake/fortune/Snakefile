@@ -1,0 +1,4 @@
+# Rule 1: Generate fortune message
+rule fortune:
+    shell:
+        "fortune fortunes"
