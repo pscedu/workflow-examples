@@ -1,0 +1,6 @@
+rule wttr:
+    output:
+        touch("output.txt")
+    shell:
+        "curl wttr.in > {output}"
+
